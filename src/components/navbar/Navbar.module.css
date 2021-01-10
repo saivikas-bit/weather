@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    background-color: brown;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 5rem;
+}
+.logo{
+    flex: 0.5;
+    font-weight: bold;
+    font-size: 24px;
+}
+.list{
+    flex: 2;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+}
+.list li button{
+    border-radius: 12px;
+    padding: 6px 12px;
+    margin: 0px 5px;
+}
